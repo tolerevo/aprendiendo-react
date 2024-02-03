@@ -8,7 +8,7 @@ export function TwitterFollowCard({ userName, name, isFollowing }) {
         <img
           className="tw-followCard-avatar"
           src={`https://unavatar.io/${userName}`}
-          alt="avatar de Tolerevo"
+          alt="avatar de tolerevo"
         />
         <div className="tw-followCard-info">
           <strong>{name}</strong>
