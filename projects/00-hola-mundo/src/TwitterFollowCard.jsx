@@ -12,7 +12,9 @@ export function TwitterFollowCard({ userName, name, isFollowing }) {
         />
         <div className="tw-followCard-info">
           <strong>{name}</strong>
-          <span className="tw-followCard-infoUserName">@{userName}</span>
+          <span className="tw-followCard-infoUserName">
+            @{userName.slice(7)}
+          </span>
         </div>
       </header>
 
