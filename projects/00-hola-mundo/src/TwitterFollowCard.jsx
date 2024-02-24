@@ -1,4 +1,7 @@
+// eslint-disable-next-line react/prop-types
 export function TwitterFollowCard({ userName, name, isFollowing }) {
+  console.log(isFollowing)
+
   return (
     <article
       className="tw-followCard"
